@@ -1,8 +1,8 @@
 import requests
 from twilio.rest import Client
 
-VIRTUAL_TWILIO_NUMBER = "+19204889661"
-VERIFIED_NUMBER = ["+84908141453", "+84327709683"]
+VIRTUAL_TWILIO_NUMBER = ""
+VERIFIED_NUMBER = ""
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
@@ -10,10 +10,10 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "IU8LG85KI9QS3VIW"
-NEWS_API_KEY = "e502d19ff0524059b41282b86f16c0e5"
-TWILIO_SID = "AC8fbbfe41177eb0879f7941fb37510397"
-TWILIO_AUTH_TOKEN = "fa6cd061ceff17ced7c58181cbb4d087"
+STOCK_API_KEY = ""
+NEWS_API_KEY = ""
+TWILIO_SID = ""
+TWILIO_AUTH_TOKEN = ""
 
 ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
